@@ -8,7 +8,7 @@ services:
       - revproxy
       - keepki
     environment:
-      - LOCALAI_API_KEY=${LOCALAI_API_KEY}  # Load OPENAI_API_KEY from .env file
+      - LOCALAI_API_KEY=${LOCALAI_API_KEY}
       - FLASK_SECRET=${FLASK_SECRET}  # Load FLASK_SECRET from .env file
     labels:
       - "traefik.enable=true"
@@ -31,6 +31,7 @@ services:
       timeout: 20m
       retries: 5
     environment:
+      - LOCALAI_API_KEY=${LOCALAI_API_KEY}
       - DEBUG=true
       # ...
     volumes:
