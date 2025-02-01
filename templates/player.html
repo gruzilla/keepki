@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player</title>
+    <!-- Use the same Socket.IO version and CSS -->
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js" integrity="sha384-KA7m0DwgQGmeRC6Xre3hJO+ZxpanOauVh4Czdqbg8lDKJ3bZZYVYmP+y4F31x40L" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="game-header">
+    <h1 class="game-title">KeepKi Player</h1>
+</header>
+
+<main class="game-container">
+    <!-- Info Panel: shows instructions, current question, etc. -->
+    <section class="panel info-panel" id="info_panel">
+        <h2 id="info_heading">Loading...</h2>
+        <div id="info_content"></div>
+    </section>
+
+    <!-- Interaction Panel: where participant provides input -->
+    <section class="panel interaction-panel" id="interaction_panel">
+        <h2 id="interaction_heading">Actions</h2>
+        <div id="interaction_content"></div>
+    </section>
+</main>
+
+<footer class="game-footer">
+    <p>© 2084 CyberCorp. All rights reserved.</p>
+</footer>
+
+</body>

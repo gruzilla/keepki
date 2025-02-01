@@ -1,0 +1,60 @@
+version: '3'
+
+services:
+
+  keepki_flask_app:
+    build:
+      context: .
+    container_name: keepki_flask_container
+    networks:
+      - revproxy
+      - keepki
+    environment:
+      - LOCALAI_API_KEY=${LOCALAI_API_KEY}  # Load OPENAI_API_KEY from .env file
+      - FLASK_SECRET=${FLASK_SECRET}  # Load FLASK_SECRET from .env file
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=revproxy"
+      - "traefik.http.routers.keepKiApp.rule=Host(`keepki.abendstille.at`)"
+      - "traefik.http.routers.keepKiApp.tls.certresolver=myhttpchallenge"
+
+  keepki_flask_ki:
+    image: localai/localai:latest-aio-cpu
+    # For a specific version:
+    # image: localai/localai:v2.25.0-aio-cpu
+    # For Nvidia GPUs decomment one of the following (cuda11 or cuda12):
+    # image: localai/localai:v2.25.0-aio-gpu-nvidia-cuda-11
+    # image: localai/localai:v2.25.0-aio-gpu-nvidia-cuda-12
+    # image: localai/localai:latest-aio-gpu-nvidia-cuda-11
+    # image: localai/localai:latest-aio-gpu-nvidia-cuda-12
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/readyz"]
+      interval: 1m
+      timeout: 20m
+      retries: 5
+    environment:
+      - DEBUG=true
+      # ...
+    volumes:
+      - ./models:/build/models:cached
+    # decomment the following piece if running with Nvidia GPUs
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=revproxy"
+      - "traefik.http.routers.keepKiApi.rule=Host(`keepkiapi.abendstille.at`)"
+      - "traefik.http.routers.keepKiApi.tls.certresolver=myhttpchallenge"
+    networks:
+      - keepki
+      - revproxy
+
+networks:
+  keepki:
+  revproxy:
+    external: true
