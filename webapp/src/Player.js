@@ -1,25 +1,25 @@
 import QrScanner from 'qr-scanner';
 
 export default class Player {
-	constructor(name) {
-        this.video = document.getElementsByTagName("video")[0];
+	constructor() {
+        this.video = document.getElementById("qrCodeScanner");
         this.scanResult = document.getElementById("scanResult");
         this.camList = [];
         this.highlightTimeout = null;
         this.scanner = new QrScanner(
-        	video,
+        	this.video,
         	this.setResult,
         	{
 			    onDecodeError: error => {
-			    	scanResult.textContent = error;
-			        scanResult.style.color = 'inherit';
+			    	this.scanResult.textContent = error;
+			        this.scanResult.style.color = 'inherit';
 			    },
 			    highlightScanRegion: true,
 			    highlightCodeOutline: true,
 			}
 		);
 
-		scanner.start().then(() => {
+		this.scanner.start().then(() => {
 		    // List cameras after the scanner started to avoid listCamera's stream and the scanner's stream being requested
 		    // at the same time which can result in listCamera's unconstrained stream also being offered to the scanner.
 		    // Note that we can also start the scanner after listCameras, we just have it this way around in the demo to

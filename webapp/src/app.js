@@ -3,7 +3,7 @@ import Generator from './Generator.js';
 
 
 window.onload = function(e){
-    if (document.getElementById("video")) {
+    if (document.getElementById("qrCodeScanner")) {
         console.log("video player");
         new Player();
     } else if (document.getElementById("qrCode")) {
