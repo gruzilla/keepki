@@ -1,8 +1,7 @@
 version: '3'
 
 services:
-
-  keepki_flask_app:
+  app:
     build:
       context: .
     container_name: keepki_flask_container
@@ -18,7 +17,7 @@ services:
       - "traefik.http.routers.keepKiApp.rule=Host(`keepki.abendstille.at`)"
       - "traefik.http.routers.keepKiApp.tls.certresolver=myhttpchallenge"
 
-  keepki_flask_ki:
+  api:
     image: localai/localai:latest-aio-cpu
     # For a specific version:
     # image: localai/localai:v2.25.0-aio-cpu
