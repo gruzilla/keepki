@@ -8,7 +8,7 @@ all: build up
 # Build the Docker containers
 .PHONY: build
 build:
-	docker-compose -f $(DOCKER_COMPOSE_FILE) build
+	docker-compose -f $(DOCKER_COMPOSE_FILE) build app
 
 # Start the Docker Compose services
 .PHONY: up
