@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Player</title>
-    <!-- Use the same Socket.IO version and CSS -->
-    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js" integrity="sha384-KA7m0DwgQGmeRC6Xre3hJO+ZxpanOauVh4Czdqbg8lDKJ3bZZYVYmP+y4F31x40L" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header class="game-header">
-    <h1 class="game-title">KeepKi Player</h1>
+    <h1 class="game-title">Don't Kill the Message</h1>
 </header>
 
 <main class="game-container">
-    <div id="scanResult"></div>
-    <video id="qrCodeScanner" style="max-height: 300px;"></video>
+    <div id="joinGame">
+        <div id="scanResult"></div>
+        <video id="qrCodeScanner" style="max-height: 100%"></video>
+    </div>
+    <div id="joinSession">
+        Name eingeben (für Board): <input id="spielername" /><br />
+        Spielsitzung: <span id="sessionId"></span><br />
+        <button id="joinGameBtn">Spiel starten</button>
+    </div>
 </main>
 
 <footer class="game-footer">

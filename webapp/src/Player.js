@@ -1,14 +1,61 @@
 import QrScanner from 'qr-scanner';
+import { io } from "socket.io-client";
+
 
 export default class Player {
+	video;
+	scanResult;
+	sessionId;
+	sessionIdField;
+
 	constructor() {
+		var phase = "scanQr";
+		if (window.location.search.length > 0) {
+			var params = new URLSearchParams(window.location.search);
+			if (params.get("session") !== null) {
+				this.sessionId = params.get("session");
+				phase = "join";
+			}
+		}
+
+		if (phase === "scanQr") {
+			console.log("scanning...");
+			this.hideSession();
+			this.startScanner();
+		}
+
+		if (phase === "join") {
+			console.log("ready to join?");
+			this.hideScanner();
+			this.startSession();
+		}
+    }
+
+    hideSession() {
+    	document.getElementById("joinSession").style.display = "none";
+    }
+
+    startSession() {
+    	this.sessionIdField = document.getElementById("sessionId");
+    	this.sessionIdField.textContent = this.sessionId;
+    	document.getElementById("joinGameBtn").onclick = () => {
+    		console.log("starting");
+    	}
+    }
+
+    hideScanner() {
+    	document.getElementById("joinGame").style.display = "none";
+    }
+
+    startScanner() {
         this.video = document.getElementById("qrCodeScanner");
         this.scanResult = document.getElementById("scanResult");
         this.camList = [];
         this.highlightTimeout = null;
+
         this.scanner = new QrScanner(
         	this.video,
-        	this.setResult,
+        	this.setResult.bind(this),
         	{
 			    onDecodeError: error => {
 			    	this.scanResult.textContent = error;
