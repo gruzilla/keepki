@@ -88,8 +88,10 @@ export default class Board extends Socketable {
 		let qrCode = document.getElementById("qrCode");
 		let difficulty = document.getElementById("difficulty");
 		let startGame = document.getElementById("startGameBtn");
+		let url = window.location.origin + "/player?session=" + this.sessionId;
 
-		QRCode.toDataURL("https://keepki.abendstille.at/player?session=" + this.sessionId)
+		document.getElementById("qrCodeLink").href = url;
+		QRCode.toDataURL(url)
 		  .then(url => {
 		  	console.log(url);
 		    qrCode.src = url;

@@ -234,7 +234,7 @@ def handle_choose_answer(data):
 
             socketio.emit('results', {
                 "games": app_state["sessions"][sessionId]["games"],
-                "answers": answers
+                "answers": random.sample(answers, len(answers))
             }, to=sessionId)
         else:
             app_state["sessions"][sessionId]["round"] = cRound + 1

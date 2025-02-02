@@ -1,0 +1,32 @@
+- joinSession:
+	- Nach Spieler:in anmelden: Button im Erfolgsfall weg und Nachricht zu Status der Anmeldung
+	- Spielsitzungs-ID weg
+- Auswahl:
+	- teile untereinander anstatt nebeneinander
+	- 1/3 pro flex-element
+	- Font auf Farbigem Hintergrund heller
+	- Abstand zwischen den flex-elementen
+	- Leerzeile vor/nach Aufgabe
+	- Darüber schreiben "Aufgabe an die KI:"
+	- Über den Auswahlmöglichkeiten ein kurzer Hilfetext "Wähle ein KI-Ergebnis:"
+	- Auswahlmöglichkeiten Abstand dazwischen, buttonartig
+	- Highlighten von Auswahl, damit das visuell wahrnehmbar ist
+	- Ändern von Auswahl möglich machen (wahrscheinlich schon umgesetzt, prüfen!)
+	- Bug mit 3 Antworten in einer Antwortn
+
+- Source-Auswahl:
+	- Mehr Abstände (siehe oben bei Auswahl)
+	- Vor der veränderten Nachricht sollte etwas stehen, etwa "Diese message wurder von der KI verändert:"
+	- Danach soll stehen, was nun zu tun ist, etwa "Kannst du erkennen, woher das Original stammt?"
+	- Zufällige reihenfolge von Quellen
+
+- Ergebnis-Screen:
+	- Modifizieret Nachricht als solche beschriften mit "Durch KI modifizierter Text:" Font-mässig bissl anders, etwa in bold?
+	- Darunter "Originaler Text" als Beschriftung hinzufügen
+	- mind. Leerzeile zwischen die Spiele(r)
+	- Name der Spielerin
+	- Reihenfolge der Tabellen in Reihenfolge der Tip-Abgaben + Korrektheit
+	- nachricht "Zum Beenden Fenster schliessen"
+	- Wahr = hackerl
+	- Falsch = X
+	- copyright weg

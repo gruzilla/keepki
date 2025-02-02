@@ -115,6 +115,9 @@ export default class Player extends Socketable {
     }
 
     renderRound(game) {
+    	console.log("DEBUG");
+    	console.log(this.round);
+    	console.log(game.message_part3);
     	document.getElementById("roundNumber").innerText = this.round;
 
     	document.querySelectorAll(".originalMessages > div.selected").forEach(e => e.classList.remove("selected"));
@@ -173,6 +176,8 @@ export default class Player extends Socketable {
 		document.getElementById("transformedMessage2").innerText = data.game.choiceRound2;
 		document.getElementById("transformedMessage3").innerText = data.game.choiceRound3;
 
+		this.shuffle(data.answers);
+
 		let s1 = document.getElementById("source1"); s1.innerText = data.answers[0];
 		s1.onclick = () => { this.selectItem(s1); }
 		let s2 = document.getElementById("source2"); s2.innerText = data.answers[1];
@@ -199,6 +204,24 @@ export default class Player extends Socketable {
 	    	}
 		}
     }
+
+	shuffle(array) {
+		let currentIndex = array.length;
+
+		// While there remain elements to shuffle...
+		while (currentIndex != 0) {
+
+			// Pick a remaining element...
+			let randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex--;
+
+			// And swap it with the current element.
+			[array[currentIndex], array[randomIndex]] = [
+				array[randomIndex], array[currentIndex]];
+		}
+	}
+
+
 
     selectItem(item) {
     	document.querySelectorAll(".sourceTip > div.selected").forEach(e => e.classList.remove("selected"));
