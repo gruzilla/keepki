@@ -141,7 +141,9 @@ export default class Player extends Socketable {
 		}
 		if (this.round == 3) {
 			document.getElementById("prompt").innerText = game.instruction3;
-			a1.innerText = game.answersRound1[0];
+			console.log("trying to debug");
+			console.log(game);
+			a1.innerText = game.answersRound3[0];
 			a2.innerText = game.answersRound3[1];
 			a3.innerText = game.answersRound3[2];
 		}
