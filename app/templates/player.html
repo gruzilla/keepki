@@ -12,15 +12,95 @@
 </header>
 
 <main class="game-container">
-    <div id="joinGame">
+    <div id="scanQr">
         <div id="scanResult"></div>
         <video id="qrCodeScanner" style="max-height: 100%"></video>
     </div>
+
     <div id="joinSession">
-        Name eingeben (für Board): <input id="spielername" /><br />
+        Name eingeben (für Board): <input id="userName" /><br />
+        Schwierigkeit des Spiels: <span id="difficulty">einfach</span><br />
         Spielsitzung: <span id="sessionId"></span><br />
-        <button id="joinGameBtn">Spiel starten</button>
+        <button id="joinGameBtn">Spieler:in anmelden</button>
     </div>
+
+    <div id="round">
+        <div>Runde <span id="roundNumber">1</span></div>
+
+        <div class="originalMessages">
+            <div id="originalMessage1">
+                M4oT1
+            </div>
+            <div id="originalMessage2">
+                M4oT2
+            </div>
+            <div id="originalMessage3">
+                M4oT3
+            </div>
+        </div>
+
+        <div class="prompt">
+            <div id="prompt">
+                Umschreibe..
+            </div>
+        </div>
+
+        <div class="answers">
+            <div id="answer1">
+                Antwort1 des Prompt
+            </div>
+            <div id="answer2">
+                Antwort2 des Prompt
+            </div>
+            <div id="answer3">
+                Antwort3 des Prompt
+            </div>
+        </div>
+    </div>
+
+    <div id="choose">
+        <div class="tansformedMessages">
+            <div id="transformedMessage1">
+                Transformierter Teil 1
+            </div>
+            <div id="transformedMessage2">
+                Transformierter Teil 2
+            </div>
+            <div id="transformedMessage3">
+                Transformierter Teil 3
+            </div>
+        </div>
+
+        <div class="sourceTip">
+            <div id="source1">
+                Quelle 1
+            </div>
+            <div id="source2">
+                Quelle 2
+            </div>
+            <div id="source3">
+                Quelle 3
+            </div>
+            <div id="source4">
+                Quelle 4
+            </div>
+            <div id="source5">
+                Quelle 5
+            </div>
+            <div id="source6">
+                Quelle 6
+            </div>
+            <div id="source7">
+                Quelle 7
+            </div>
+            <div id="source8">
+                Quelle 8
+            </div>
+        </div>
+
+        <button id="btnTip">Tip abgeben</button>
+    </div>
+
 </main>
 
 <footer class="game-footer">

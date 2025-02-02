@@ -10,11 +10,115 @@
 </head>
 <body>
 <header class="game-header">
-    <h1 class="game-title">KeepKi Board</h1>
+    <h1 class="game-title">Don't Kill the Message</h1>
 </header>
 
 <main class="game-container">
-    <img width="100" height="100" id="qrCode"></img>
+    <div id="collectingPlayers">
+        <ul id="players"></ul>
+        <img width="100" height="100" id="qrCode"></img><br />
+
+        Schwierigkeit: <select id="difficulty">
+            <option value="Einfach">Einfach</option>
+            <option value="Mittel">Mittel</option>
+            <option value="Schwer">Schwer</option>
+        </select><br />
+
+        <button id="startGameBtn">Spiel starten</button>
+    </div>
+
+    <div id="round">
+        <h2>Anleitung</h2>
+
+        <p>
+            1. Du siehst die Message für einen anderen Spieler
+            Wähle einen Prompt aus, um die Nachricht zu verändern
+        </p>
+
+        <p>2. Schaue deine Änderungen an und Klicke Weiter</p>
+
+        <p>Die Schritte 1+2 wiederholen sich jede Runde.</p>
+
+        <p id="loading">Bitte warten, bis das Spiel generiert wurde ...</p>
+
+        <p>Wir warten noch auf <span id="waiting">4</span> Spieler:innen</p>
+    </div>
+
+    <div id="results">
+        <table id="game1">
+            <tr>
+                <td>Transformierter Teil 1</td>
+                <td>Transformierter Teil 2</td>
+                <td>Transformierter Teil 3</td>
+                <td>&nbsp;</td>
+                <td>Quellen Tip?</td>
+                <td>Korrekt?</td>
+            </tr>
+            <tr>
+                <td>Originaler Teil 1</td>
+                <td>Originaler Teil 2</td>
+                <td>Originaler Teil 3</td>
+                <td>&nbsp;</td>
+                <td>Quelle</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <table id="game2">
+            <tr>
+                <td>Transformierter Teil 1</td>
+                <td>Transformierter Teil 2</td>
+                <td>Transformierter Teil 3</td>
+                <td>&nbsp;</td>
+                <td>Quellen Tip?</td>
+                <td>Korrekt?</td>
+            </tr>
+            <tr>
+                <td>Originaler Teil 1</td>
+                <td>Originaler Teil 2</td>
+                <td>Originaler Teil 3</td>
+                <td>&nbsp;</td>
+                <td>Quelle</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <table id="game3">
+            <tr>
+                <td>Transformierter Teil 1</td>
+                <td>Transformierter Teil 2</td>
+                <td>Transformierter Teil 3</td>
+                <td>&nbsp;</td>
+                <td>Quellen Tip?</td>
+                <td>Korrekt?</td>
+            </tr>
+            <tr>
+                <td>Originaler Teil 1</td>
+                <td>Originaler Teil 2</td>
+                <td>Originaler Teil 3</td>
+                <td>&nbsp;</td>
+                <td>Quelle</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <table id="game4">
+            <tr>
+                <td>Transformierter Teil 1</td>
+                <td>Transformierter Teil 2</td>
+                <td>Transformierter Teil 3</td>
+                <td>&nbsp;</td>
+                <td>Quellen Tip?</td>
+                <td>Korrekt?</td>
+            </tr>
+            <tr>
+                <td>Originaler Teil 1</td>
+                <td>Originaler Teil 2</td>
+                <td>Originaler Teil 3</td>
+                <td>&nbsp;</td>
+                <td>Quelle</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+
 </main>
 
 <footer class="game-footer">

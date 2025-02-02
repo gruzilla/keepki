@@ -12,7 +12,11 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader'
+          loader: 'babel-loader',
+          options: {
+            presets: ["@babel/preset-env"], // ensure compatibility with older browsers
+            plugins: ["@babel/plugin-transform-object-assign"], // ensure compatibility with IE 11
+          },
         }
       },
       {

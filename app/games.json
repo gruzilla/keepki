@@ -1,0 +1,318 @@
+{"dktm":
+    [
+        {
+            "message_part1":"Wer reitet so spät ",
+            "message_part2":"durch dktmNacht und Wind? ",
+            "message_part3":"Es ist der Vater mit seinem Kind.",
+            "instruction1":"Umschreibe das Wort reitet",
+            "instruction2":"Umschreibe durch Nacht und Wind",
+            "instruction3":"Umschreibe Vater mit seinem Kind",
+            "ursprung":"Der Erlkönig (Goethe)",
+            "kategorie":"Gedichte",
+            "schwierigkeit":"Einfach",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Wer reitet so spät\". Instruktion: \"Umschreibe das Wort reitet. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"durch Nacht und Wind?\". Instruktion: \"Umschreibe durch Nacht und Wind. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Es ist der Vater mit seinem Kind\". Instruktion: \"Umschreibe Vater mit seinem Kind. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Es herrscht Bürgerkrieg. ",
+            "message_part2":"Die Rebellen, deren Raumschiffe von einem geheimen Stützpunkt aus angreifen, ",
+            "message_part3":"haben ihren ersten Sieg gegen das böse galaktische Imperium errungen.",
+            "instruction1":"Umschreibe das Wort Bürgerkrieg",
+            "instruction2":"Umschreibe das Wort Raumschiffe",
+            "instruction3":"Umschreibe das böse galaktische Imperium",
+            "ursprung":"Star Wars - Episode 4",
+            "kategorie":"Filme",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Es herrscht Bürgerkrieg.\". Instruktion: \"Umschreibe das Wort Bürgerkrieg. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Die Rebellen, deren Raumschiffe von einem geheimen Stützpunkt aus angreifen,\". Instruktion: \"Umschreibe das Wort Raumschiffe. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"haben ihren ersten Sieg gegen das böse galaktische Imperium errungen. \". Instruktion: \"Umschreibe das böse galaktische Imperium. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Steht die Form, aus Lehm gebrannt. ",
+            "message_part2":"Heute muss die Glocke werden. ",
+            "mmssage_part3":"Frisch Gesellen, seid zur Hand.",
+            "instruction1":"Umschreibe aus Lehm gebrannt",
+            "instruction2":"Umschreibe das Wort Glocke",
+            "instruction3":"Umschreibe seid zur Hand",
+            "ursprung":"Das Lied von der Glocke (Schiller)",
+            "kategorie":"Gedichte",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Steht die Form, aus Lehm gebrannt.\". Instruktion: \"Umschreibe aus Lehm gebrannt. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Heute muss die Glocke werden.\". Instruktion: \"Umschreibe das Wort Glocke. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Frisch Gesellen, seid zur Hand. \". Instruktion: \"Umschreibe seid zur Hand. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Einst, um eine Mittnacht graulich, ",
+            "message_part2":"da ich trübe sann und traulich, ",
+            "message_part3":"müde über manchem alten Folio lang vergess'ner Lehr'.",
+            "instruction1":"Umschreibe das Wort Mittnacht",
+            "instruction2":"Umschreibe da ich trübe sann",
+            "instruction3":"Umschreibe lanf vergess'ner Lehr",
+            "ursprung":"Der Rabe (Edgar Allan Poe)",
+            "kategorie":"Gedichte",
+            "schwierigkeit":"Schwer",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Einst, um eine Mittnacht graulich,\". Instruktion: \"Umschreibe das Wort Mittnacht. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"da ich trübe sann und traulich,\". Instruktion: \"Umschreibe da ich trübe sann. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"müde über manchem alten Folio lang vergess'ner Lehr'\". Instruktion: \"Umschreibe lanf vergess'ner Lehr. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Auf der Mauer, ",
+            "message_part2":"auf der Lauer, ",
+            "message_part3":"sitzt ’ne kleine Wanze.",
+            "instruction1":"Umschreibe das Wort Mauer",
+            "instruction2":"Umschreibe auf der Lauer",
+            "instruction3":"Umschreibe kleine Wanze",
+            "ursprung":"Auf der Mauer, auf der Lauer",
+            "kategorie":"Kinderlieder",
+            "schwierigkeit":"Einfach",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Auf der Mauer, \". Instruktion: \"Umschreibe das Wort Mauer. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"auf der Lauer, \". Instruktion: \"Umschreibe auf der Lauer. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"sitzt ’ne kleine Wanze.\". Instruktion: \"Umschreibe kleine Wanze. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Alle meine Entchen, ",
+            "message_part2":"schwimmen auf dem See, ",
+            "message_part3":"Köpfchen in das Wasser...",
+            "instruction1":"Umschreibe das Wort Entchen",
+            "instruction2":"Umschreibe schwimmen auf dem See",
+            "instruction3":"Umschreibe das Wort Köpfchen",
+            "ursprung":"Alle meine Entchen",
+            "kategorie":"Kinderlieder",
+            "schwierigkeit":"Einfach",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Alle meine Entchen,\". Instruktion: \"Umschreibe das Wort Entchen. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"schwimmen auf dem See, \". Instruktion: \"Umschreibe schwimmen auf dem See. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Köpfchen in das Wasser, \". Instruktion: \"Umschreibe das Wort Köpfchen. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Hast du etwas Zeit für mich? ",
+            "message_part2":"Dann singe ich ein Lied für dich. ",
+            "message_part3":"Von neunundneunzig Luftballons...",
+            "instruction1":"Umschreibe Hast du etwas Zeit für mich",
+            "instruction2":"Umschreibe singe ich ein Lied ",
+            "instruction3":"Umschreibe neunundneunzig Luftballons",
+            "ursprung":"99 Luftballons (Nena)",
+            "kategorie":"Lieder",
+            "schwierigkeit":"Einfach",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Hast du etwas Zeit für mich?\". Instruktion: \"Umschreibe Hast du etwas Zeit für mich. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Dann singe ich ein Lied für dich. \". Instruktion: \"Umschreibe singe ich ein Lied . Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Von neunundneunzig Luftballons,\". Instruktion: \"Umschreibe neunundneunzig Luftballons. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Weine nicht, wenn der Regen fällt. ",
+            "message_part2":"Es gibt einen, der zu dir hält. ",
+            "message_part3":"Marmor, Stein und Eisen bricht.",
+            "instruction1":"Umschreibe wenn der Regen fällt",
+            "instruction2":"Umschreibe Es gibt einen, der zu dir hält",
+            "instruction3":"Umschreibe das Wort Marmor",
+            "ursprung":"Marmor, Stein und Eisen (Drafi Deutscher)",
+            "kategorie":"Lieder",
+            "schwierigkeit":"Einfach",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Weine nicht, wenn der Regen fällt.\". Instruktion: \"Umschreibe wenn der Regen fällt. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Es gibt einen, der zu dir hält. \". Instruktion: \"Umschreibe Es gibt einen, der zu dir hält. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Marmor, Stein und Eisen bricht.\". Instruktion: \"Umschreibe das Wort Marmor. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Wie eine Blume am Winterbeginn, ",
+            "message_part2":"Und so wie ein Feuer im eisigen Wind. ",
+            "message_part3":"Wie eine Puppe, die keiner mehr mag,...",
+            "instruction1":"Umschreibe das Wort Winterbeginn",
+            "instruction2":"Umschreibe im eisigen Wind",
+            "instruction3":"Umschreibe die keiner mehr mag",
+            "ursprung":"Ein bisschen Frieden (Nicole)",
+            "kategorie":"Lieder",
+            "schwierigkeit":"Schwer",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Wie eine Blume am Winterbeginn,\". Instruktion: \"Umschreibe das Wort Winterbeginn. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Und so wie ein Feuer im eisigen Wind. \". Instruktion: \"Umschreibe  im eisigen Wind. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Wie eine Puppe, die keiner mehr mag, \". Instruktion: \"Umschreibe die keiner mehr mag. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"In einer Höhle in der Erde, ",
+            "message_part2":"da lebte ein Hobbit. ",
+            "message_part3":"Nicht in einem schmutzigen, nassen Loch, das nach Schlamm und Moder roch.",
+            "instruction1":"Umschreibe das Wort Höhle",
+            "instruction2":"Umschreibe das Wort Hobbit",
+            "instruction3":"Umschreibe in einem schmutzigen, nassen Loch",
+            "ursprung":"Der kleine Hobbit (J.R.R. Tolkien)",
+            "kategorie":"Romane",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"In einer Höhle in der Erde,\". Instruktion: \"Umschreibe das Wort Höhle. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"da lebte ein Hobbit. \". Instruktion: \"Umschreibe das Wort Hobbit. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Nicht in einem schmutzigen, nassen Loch, das nach Schlamm und Moder roch\". Instruktion: \"Umschreibe in einem schmutzigen, nassen Loch. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Sie fing an sich zu langweilen; ",
+            "message_part2":"sie saß schon lange bei ihrer Schwester ",
+            "message_part3":"am Ufer und hatte nichts zu tun.",
+            "instruction1":"Umschreibe sich zu langweilen",
+            "instruction2":"Umschreibe das Wort Schwester",
+            "instruction3":"Umschreibe hatte nichts zu tun",
+            "ursprung":"Alice im Wunderland (Lewis Caroll)",
+            "kategorie":"Romane",
+            "schwierigkeit":"Schwer",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Sie fing an sich zu langweilen;\". Instruktion: \"Umschreibe sich zu langweilen. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"sie saß schon lange bei ihrer Schwester \". Instruktion: \"Umschreibe das Wort Schwester. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"am Ufer und hatte nichts zu tun. \". Instruktion: \"Umschreibe hatte nichts zu tun. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Am Anfang wurde das Universum erschaffen. ",
+            "message_part2":"Das hat viele Leute sehr verärgert ",
+            "message_part3":"und wurde weithin als schlechter Schachzug angesehen.",
+            "instruction1":"Umschreibe das Wort Universum",
+            "instruction2":"Umschreibe hat viele Leute sehr verärgert",
+            "instruction3":"Umschreibe dals schlechter Schachzug angesehen",
+            "ursprung":"Per Anhalter durch die Galaxis (Douglas Adams)",
+            "kategorie":"Romane",
+            "schwierigkeit":"Schwer",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Am Anfang wurde das Universum erschaffen.\". Instruktion: \"Umschreibe das Wort Universum. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Das hat viele Leute sehr verärgert \". Instruktion: \"Umschreibe hat viele Leute sehr verärgert . Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"und wurde weithin als schlechter Schachzug angesehen.\". Instruktion: \"Umschreibe dals schlechter Schachzug angesehen. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Vergiss niemals: ",
+            "message_part2":"Aus großer Macht ",
+            "message_part3":"folgt große Verantwortung!",
+            "instruction1":"Umschreibe das Wort niemals",
+            "instruction2":"Umschreibe Aus großer Macht",
+            "instruction3":"Umschreibe große Verantwortung",
+            "ursprung":"Spider Man",
+            "kategorie":"Filme",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Vergiss niemals:\". Instruktion: \"Umschreibe das Wort niemals. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Aus großer Macht, \". Instruktion: \"Umschreibe Aus großer Macht. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"folgt große Verantwortung!\". Instruktion: \"Umschreibe große Verantwortung. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Erwartet mein Kommen, ",
+            "message_part2":"beim ersten Licht des fünften Tages. ",
+            "message_part3":"Bei Sonnenaufgang, schaut nach Osten!",
+            "instruction1":"Umschreibe das Wort Erwartet",
+            "instruction2":"Umschreibe beim ersten Licht",
+            "instruction3":"Umschreibe schaut nach Osten",
+            "ursprung":"Der Herr der Ringe (J.R.R. Tolkien)",
+            "kategorie":"Filme",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Erwartet mein Kommen,\". Instruktion: \"Umschreibe das Wort Erwartet. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"beim ersten Licht des fünften Tages. \". Instruktion: \"Umschreibe beim ersten Licht . Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Bei Sonnenaufgang, schaut nach Osten\". Instruktion: \"Umschreibe schaut nach Osten. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Furcht führt zu Wut, ",
+            "message_part2":"Wut führt zu Hass, ",
+            "message_part3":"Hass führt zu unsäglichem Leid.",
+            "instruction1":"Umschreibe Furcht führt zu Wut",
+            "instruction2":"Umschreibe Wut führt zu Hass",
+            "instruction3":"Umschreibe Hass führt zu unsäglichem Leid",
+            "ursprung":"Star Wars - Episode 1",
+            "kategorie":"Filme",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Furcht führt zu Wut,\". Instruktion: \"Umschreibe Furcht führt zu Wut. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Wut führt zu Hass \". Instruktion: \"Umschreibe Wut führt zu Hass. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Hass führt zu unsäglichem Leid.\". Instruktion: \"Umschreibe Hass führt zu unsäglichem Leid.. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Sie sind ohne Zweifel der schlechteste Pirat, ",
+            "message_part2":"von dem ich je gehört habe. ",
+            "message_part3":"Aber ihr habt von mir gehört.",
+            "instruction1":"Umschreibe der schlechteste Pirat",
+            "instruction2":"Umschreibe von dem ich je gehört habe",
+            "instruction3":"Umschreibe ihr habt von mir gehört",
+            "ursprung":"Fluch der Karibik",
+            "kategorie":"Filme",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Sie sind ohne Zweifel der schlechteste Pirat,\". Instruktion: \"Umschreibe der schlechteste Pirat. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"von dem ich je gehört habe. \". Instruktion: \"Umschreibe von dem ich je gehört habe. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Aber ihr habt von mir gehört.\". Instruktion: \"Umschreibe ihr habt von mir gehört. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Ich arbeite nur in Schwarz, ",
+            "message_part2":"und manchmal, ",
+            "message_part3":"in ganz, ganz dunklem Grau.",
+            "instruction1":"Umschreibe das Wort Schwarz",
+            "instruction2":"Umschreibe das Wort manchmal",
+            "instruction3":"Umschreibe in ganz, ganz dunklem Grau",
+            "ursprung":"Lego Movie",
+            "kategorie":"Filme",
+            "schwierigkeit":"Schwer",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Ich arbeite nur in Schwarz,\". Instruktion: \"Umschreibe das Wort Schwarz. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"und manchmal,\". Instruktion: \"Umschreibe das Wort manchmal. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"in ganz, ganz dunklem Grau\". Instruktion: \"Umschreibe in ganz, ganz dunklem Grau. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Seid fröhlich in Hoffnung, ",
+            "message_part2":"geduldig in Trübsal, ",
+            "message_part3":"beharrlich im Gebet.",
+            "instruction1":"Umschreibe das Wort Hoffnung",
+            "instruction2":"Umschreibe das Wort Trübsal",
+            "instruction3":"Umschreibe das Wort Gebet",
+            "ursprung":"Römer 12:12 (Die Bibel)",
+            "kategorie":"Romane",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Seid fröhlich in Hoffnung,  \". Instruktion: \"Umschreibe das Wort Hoffnung. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"geduldig in Trübsal, \". Instruktion: \"Umschreibe das Wort Trübsal. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"beharrlich im Gebet.\". Instruktion: \"Umschreibe das Wort Gebet. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+         {
+            "message_part1":"Ich glaube ",
+            "message_part2":"keiner Statistik, ",
+            "message_part3":"die ich nicht selbst gefälscht habe.",
+            "instruction1":"Umschreibe ich glaube",
+            "instruction2":"Umschreibe das Wort Statistik",
+            "instruction3":"Umschreibe selbst gefälscht habe",
+            "ursprung":"Winston Churchill",
+            "kategorie":"Politik",
+            "schwierigkeit":"Schwer",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Ich glaube \". Instruktion: \"Umschreibe ich glaube. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"keiner Statistik, \". Instruktion: \"Umschreibe das Wort Statistik. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"die ich nicht selbst gefälscht habe\". Instruktion: \"Umschreibe selbst gefälscht habe. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+        {
+            "message_part1":"Politische Fragen ",
+            "message_part2":"sind viel zu ernst, ",
+            "message_part3":"um sie den Politikern zu überlassen.",
+            "instruction1":"Umschreibe Politische Fragen",
+            "instruction2":"Umschreibe viel zu ernst",
+            "instruction3":"Umschreibe das Wort Politikern",
+            "ursprung":"Hannah Arendt",
+            "kategorie":"Politik",
+            "schwierigkeit":"Schwer",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Politische Fragen \". Instruktion: \"Umschreibe Politische Fragen. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"sind viel zu ernst,\". Instruktion: \"Umschreibe viel zu ernst. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"um sie den Politikern zu überlassen\". Instruktion: \"Umschreibe das Wort Politikern. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        },
+
+        {
+            "message_part1":"Alle großen Leute ",
+            "message_part2":"sind einmal Kinder gewesen, ",
+            "message_part3":"aber wenige erinnern sich daran.",
+            "instruction1":"Umschreibe großen Leute",
+            "instruction2":"Umschreibe das Wort Kinder",
+            "instruction3":"Umschreibe erinnern sich daran",
+            "ursprung":"Der kleine Prinz (Antoine de Saint-Exupéry)",
+            "kategorie":"Romane",
+            "schwierigkeit":"Mittel",
+            "prompt1":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"Alle großen Leute\". Instruktion: \"Umschreibe großen Leute. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt2":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"sind einmal Kinder gewesen \". Instruktion: \"Umschreibe das Wort Kinder. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\"",
+            "prompt3":"Transformiere den folgenden Satz mit der darauf folgenden Instruktion. Satz: \"aber wenige erinnern sich daran\". Instruktion: \"Umschreibe erinnern sich daran. Gib drei Alternativen des transformierten Satzes in einer nummerierten Liste ohne den Originalsatz aus.\""
+        }
+    ]
+}

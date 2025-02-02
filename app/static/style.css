@@ -1,3 +1,25 @@
 body {
 	font-family: Roboto, sans-serif;
 }
+
+.originalMessages, .prompt, .answers {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.answers {
+	flex-flow: column;
+}
+
+.originalMessages > div {
+
+}
+
+.originalMessages > div.selected {
+	background-color: teal;
+}
+
+.sourceTip > div.selected {
+	background-color: orange;
+}
